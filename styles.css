@@ -21,9 +21,14 @@ ul {
 }
 
 button{
-    max-width: 100px;
-    max-height: 50px;
+    max-width: 175px;
+    max-height: 75px;
     padding: 10px;
+    font-size: 18px;
+    background-color: darkblue;
+    color: #F9FAF8;
+    border: 5px solid darkblue;
+    border-radius: 20px;
 }
 
 .dark_container{
@@ -39,6 +44,12 @@ button{
     margin-bottom: 100px;
 }
 
+.pitch_headline {
+    font-size: 48px;
+    color: #F9FAF8;
+    text-align: start;
+}
+
 .pitch {
     max-width: 500px;
     max-height: 500px;
@@ -47,12 +58,7 @@ button{
     text-align: justify;
     gap: 16px;
     color:#F9FAF8;
-}
-
-.pitch_headline {
-    font-size: 48px;
-    color: #F9FAF8;
-    text-align: start;
+    font-size: 18px;
 }
 
 .container_2 {
@@ -65,6 +71,9 @@ button{
 .burning_dollars {
     display: flex;
     margin-left: 48px;
+    opacity: 0.75;
+    border: 5px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 .steps {
