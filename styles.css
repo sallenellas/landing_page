@@ -83,23 +83,37 @@ button{
     border-radius: 10px;
 }
 
+.steps_headline {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
 .steps {
     display: flex;
     gap: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: space-between;
-}
-
-figcaption{
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    max-width: 200px;
+    opacity: .75;
 }
 
 .step_one, .step_two, .step_three {
-    
+    border: 5px solid #E5E7EB;
+    border-style:outset;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: 700;
+    font-style: italic;
+    font-kerning:auto;
+    font-display:inherit;
+    font-size: 12px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+figcaption{
+    max-width: 200px;
 }
 
 .quote {
@@ -135,7 +149,7 @@ figcaption{
 }
 
 .call_to_action{
-    width: 1200;
+    width: 1500;
     height: 100;
     padding: 36px;
     display: flex;
