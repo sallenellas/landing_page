@@ -33,10 +33,12 @@ button{
     max-height: 75px;
     padding: 10px;
     font-size: 18px;
+    font-weight: 900;
     background-color: #3882F6;
     color: #F9FAF8;
     border: 5px solid #3882F6;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-top: 24px;
 }
 
 .dark_container{
@@ -73,11 +75,12 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 48px;
 }
 
 .burning_dollars {
     display: flex;
-    margin-left: 48px;
+    margin-left: 64px;
     opacity: 0.75;
     border: 5px solid #F9FAF8;
     border-radius: 10px;
@@ -107,13 +110,13 @@ button{
     font-style: italic;
     font-kerning:auto;
     font-display:inherit;
-    font-size: 12px;
+    font-size: 14px;
     justify-content: space-between;
     text-align: center;
 }
 
 figcaption{
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .quote {
